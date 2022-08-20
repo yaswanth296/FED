@@ -1,0 +1,11 @@
+div {  
+    border: 15PX solid rgb(14,14,58);  
+    display:inline-block;
+    justify-content:center;
+    border-radius: 5px;
+    border-radius: 2em;  
+    padding: 10px;  
+    outline-offset: 0.5em; 
+    font-family: Arial;
+     
+}

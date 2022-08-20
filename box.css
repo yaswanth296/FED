@@ -1,0 +1,53 @@
+.t{
+    background-color: aqua;
+    height: 60px;
+    width:100%;
+    margin-top:0.4em;
+    font-weight: bold;
+   }
+   .c{
+    background-color: pink;
+    height: 200px;
+    margin-top:0px;
+    margin-left: 1.5em;
+    font-weight: bold;
+    width:100%;
+   }
+   .b{
+    background-color: aqua;
+    height: 60px;
+    width:75%;
+    margin-top:0.2em;
+    font-weight: bold;
+   }
+   .c1{
+    background-color:orange;
+    position:absolute;
+    top:70px;
+    left:200px;
+    height: 60px;
+    width:75%;
+    font-weight: bold;
+   }
+   .c2{
+    background-color:orange;
+    position:absolute;
+    top:200px;
+    left:200px;
+    height: 60px;
+    width:75%;
+    font-weight: bold;
+   }
+   .c3{
+    background-color:orange;
+    position:absolute;
+    margin-left:40%;
+    top:15px;
+    left:200px;
+    height: 45px;
+    width:100%;
+    font-weight: bold;
+   }
+   
+</style>
+

@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <title>XYZ Registration Form</title>
+    <style>
+        .required:after {
+          content:" *";
+          color: red;
+        }
+      </style>
+      </head>  
+    <body>
+        <form>
+          <h3 style="text-align:center">XYZ Registration Form</h3>
+            <label class="required">First Name:</label>
+            <input type="text" maxlength="10" pattern="[a-zA-Z]+"><br><br>
+            <label class="required">Last Name:</label>
+            <input type="text" maxlength="10" pattern="[a-zA-Z]+"><br><br>
+            <label class="required">Date Of Birth:</label>
+            <input type="datetime-local"><br> <br>
+            <label>Gender:</label>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female
+            <input type="radio" name="Gender">Others
+            <br><br>
+            <label>Degree:</label>
+            <select name="select" id="select">
+                <option value="bachelors">Bachelors</option>
+                <option value="masters">Masters</option>
+                <option value="doctorate">Doctorate</option>
+            </select><br><br>
+            <label class="required">Specialization</label>
+            <input type="text" maxlength="40" pattern="[a-zA-Z]+"><br><br>
+            <label>Current CGPA:</label>
+            <input type="number" maxlength="5" step="0.1"><br><br>
+            <label class="required">PhoneNumber</label>
+            <input type="text" maxlength="10" pattern="[0-9]+"><br><br>
+            <label for="address" class="required">Address:</label>
+            <textarea id="address" name="address" rows="4" maxlength="40">    
+            </textarea>
+        </form>
+    </body>
+   </html>
