@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Bubbling Event in Javascript
+	</title>
+</head>
+
+<body>
+
+	<h2>Event Bubbling</h2>
+
+	<div id="parent">
+	<button> 
+		<h3>Parent</h3>
+	</button>
+	<button id="child">
+		
+<p>Child</p>
+
+	</button>
+	</div><br>
+
+
+	<script>
+		document.getElementById(
+"child").addEventListener("click", function () {
+			alert("You clicked the Child element!");
+		}, false);
+
+		document.getElementById(
+"parent").addEventListener("click", function () {
+			alert("You clicked the parent element!");
+		}, false);
+	</script>
+
+</body>
+
+</html>
